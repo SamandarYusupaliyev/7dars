@@ -1,55 +1,60 @@
 {
-    "recipies": [
-      {
-        "id": "1",
-        "title": "Palov",
-        "image":"https://www.google.com/imgres?q=palov&imgurl=https%3A%2F%2Fuzbekistan.travel%2Fstorage%2Fapp%2Fmedia%2FPlov_s_aivoi.jpg&imgrefurl=https%3A%2F%2Fuzbekistan.travel%2Fuz%2Fo%2Fpalov-haqida-afsona%2F&docid=b61aVszRYfuZ0M&tbnid=eqTwOabfcdZclM&vet=12ahUKEwibh_jcta2FAxX1EhAIHa5iATcQM3oECGMQAA..i&w=2048&h=1365&hcb=2&ved=2ahUKEwibh_jcta2FAxX1EhAIHa5iATcQM3oECGMQAA",
-        "ingredients": [
-          "guruch",
-          "sabzi",
-          "zira",
-          "go'sht",
-          "yog'",
-          "piyoz",
-          "tuz",
-          "suv"
-        ],
-        "cookingTime": "60 minutes",
-        "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
-      },
-      {
-        "id": "2",
-        "title": "Mastava",
-        "ingredients": [
-          "guruch",
-          "sabzi",
-          "go'sht",
-          "yog'",
-          "piyoz",
-          "tuz",
-          "suv",
-          "kartoshka"
-        ],
-        "cookingTime": "40 minutes",
-        "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
-      },
-      {
-        "id": "3",
-        "title": "Dimlama",
-        "ingredients": [
-          "sabzi",
-          "go'sht",
-          "yog'",
-          "piyoz",
-          "tuz",
-          "suv",
-          "kartoshka",
-          "mol yog'"
-        ],
-        "cookingTime": "120 minutes",
-        "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
-      }
-      
-    ]
-  }
-  
+  "recipies": [
+    {
+      "id": "1",
+      "image":"https://main-cdn.sbermegamarket.ru/hlr-system/-17/321/304/386/131/158/100054460936b0.png",
+      "title": "Palov",
+      "ingredients": [
+        "guruch",
+        "sabzi",
+        "zira",
+        "go'sht",
+        "yog'",
+        "piyoz",
+        "tuz",
+        "suv",
+        "mol yog'",
+        "zira"
+      ],
+      "cookingTime": "60 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
+    },
+    {
+      "id": "2",
+      "title": "Mastava",
+      "image":"https://chaihana19.ru/wp-content/uploads/2021/04/Машхурда.jpg",
+      "ingredients": [
+        "guruch",
+        "sabzi",
+        "go'sht",
+        "yog'",
+        "piyoz",
+        "kartoshka",
+        "tuz",
+        "suv",
+        "tamat"
+      ],
+      "cookingTime": "40 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
+    },
+    {
+      "id": "3",
+      "title": "sho'rva",
+      "image":"https://gzeli-dostavka.ru/uploads/webp/catalog/piccy/shurpasbaraninoj.webp",
+      "ingredients": [
+        "sabzi",
+        "go'sht",
+        "yog'",
+        "piyoz",
+        "kartoshka",
+        "tuz",
+        "suv",
+        "pomidor",
+        "mol yog'",
+        "ko'katlar"
+      ],
+      "cookingTime": "80 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
+    }
+  ]
+}
