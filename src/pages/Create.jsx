@@ -49,10 +49,10 @@ function Create() {
            ></textarea>
         </label>
 
-        <button className="btn btn-secondary w-full max-w-xs text-[22px]">Submit</button>
+        <button className="btn btn-secondary w-full max-w-xs text-[20px]">Submit</button>
       </form>
     </div>
-  );
+  );8
 }
 
 export default Create;
