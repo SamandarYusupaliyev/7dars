@@ -2,7 +2,7 @@
   "recipies": [
     {
       "id": "1",
-      "image":"https://main-cdn.sbermegamarket.ru/hlr-system/-17/321/304/386/131/158/100054460936b0.png",
+      "image":"https://uzbekcook.files.wordpress.com/2016/02/uzbek-palov.jpg",
       "title": "Palov",
       "ingredients": [
         "guruch",
@@ -22,7 +22,7 @@
     {
       "id": "2",
       "title": "Mastava",
-      "image":"https://chaihana19.ru/wp-content/uploads/2021/04/Машхурда.jpg",
+      "image":"https://uzbekcook.files.wordpress.com/2016/02/uzbek-palov.jpg",
       "ingredients": [
         "guruch",
         "sabzi",
@@ -40,7 +40,7 @@
     {
       "id": "3",
       "title": "sho'rva",
-      "image":"https://gzeli-dostavka.ru/uploads/webp/catalog/piccy/shurpasbaraninoj.webp",
+      "image":"https://uzbekcook.files.wordpress.com/2016/02/uzbek-palov.jpg",
       "ingredients": [
         "sabzi",
         "go'sht",
