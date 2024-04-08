@@ -9,22 +9,22 @@ const themes ={
 }
 
 
-  function darkModeFromLocalStrage() {
+function darkModeFromLocalStrage() {
     return localStorage.getItem("mode") || themes.winter;
-  }
+}
 
-  function Navbar() {
-    const [theme, setTheme] = useState(darkModeFromLocalStrage())
+function Navbar() {
+  const [theme, setTheme] = useState(darkModeFromLocalStrage())
 
-    const handleClick = () => {
-      const newTheme = theme == themes.winter ? themes.dracula : themes.winter;
-      setTheme(newTheme)
-    };
+  const handleClick = () => {
+  const newTheme = theme == themes.winter ? themes.dracula : themes.winter;
+    setTheme(newTheme)
+};
 
-    useEffect(() => {
-      document.documentElement.setAttribute("data-theme", theme);
-      localStorage.setItem("mode", theme)
-    }, [theme])
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("mode", theme)
+}, [theme])
   
   return (
     <div className="navbar mb-10">
@@ -35,7 +35,10 @@ const themes ={
         <div className="flex gap-10 items-center">
         <label className="swap swap-rotate">
            {/* this hidden checkbox controls the state */}
-           <input type="checkbox" onClick={handleClick} />
+           <input type="checkbox" 
+           onClick={handleClick}
+            defaultChecked ={theme == "winter" ? false :true}
+            />
   
             {/* sun icon */}
             <IoSunnyOutline className="swap-on fill-current  w-8 h-8"/>
