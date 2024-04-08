@@ -21,6 +21,23 @@ function Create() {
 
         <label className="form-control w-full max-w-xs">
            <div className="label">
+              <span className="label-text text-[17px]">Ingredients:</span>
+           </div>
+             <div className="flex gap-2">
+             <input
+              type="text"
+              placeholder="Type here"
+              className="input input-bordered w-full max-w-xs"
+           />
+            <button className="btn btn-secondary">Add</button>
+             </div>
+             <div className="mt-1">
+             <p>Inredients:Tuz,Go'sht,</p>
+           </div>
+        </label>
+
+        <label className="form-control w-full max-w-xs">
+           <div className="label">
               <span className="label-text text-[16px]">Cooking Time</span>
            </div>
            <input
