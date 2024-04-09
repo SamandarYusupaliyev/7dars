@@ -22,7 +22,7 @@
     {
       "id": "2",
       "title": "Mastava",
-      "image":"https://uzbekcook.files.wordpress.com/2016/02/uzbek-palov.jpg",
+      "image":"https://tvoirecepty.ru/files/imagecache/colorbox/recept/recept-mastava.jpg",
       "ingredients": [
         "guruch",
         "sabzi",
@@ -39,8 +39,8 @@
     },
     {
       "id": "3",
-      "title": "sho'rva",
-      "image":"https://uzbekcook.files.wordpress.com/2016/02/uzbek-palov.jpg",
+      "title": "Sho'rva",
+      "image":"https://zamin.uz/uploads/posts/2019-02/1551335663_15489147748.jpg",
       "ingredients": [
         "sabzi",
         "go'sht",
@@ -55,6 +55,62 @@
       ],
       "cookingTime": "80 minutes",
       "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
+    },
+    {
+      "id": "4",
+      "title": "Dimlama",
+      "image":"https://hochu-gotovit.ru/wp-content/uploads/2017/11/JsqqEXPsvAY-700x526.jpg",
+      "ingredients": [
+        "sabzi",
+        "go'sht",
+        "yog'",
+        "piyoz",
+        "kartoshka",
+        "tuz",
+        "suv",
+        "pomidor",
+        "mol yog'",
+        "ko'katlar",
+        "ziralar"
+      ],
+      "cookingTime": "80 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
+    },
+    {
+      "id": "5",
+      "title": "Somsa",
+      "image":"https://meros.uz/upload/2017/02/2e37d88566aba416e58b6d0979f3c8aa-large.jpg",
+      "ingredients": [
+        "sabzi",
+        "go'sht",
+        "yog'",
+        "piyoz",
+        "tuz",
+        "suv",
+        "mol yog'",
+        "ziralar"
+      ],
+      "cookingTime": "120 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
+    },
+    {
+      "id": "6",
+      "title": "Chuchvara",
+      "image":"https://frankfurt.apollo.olxcdn.com/v1/files/3cxmrcdbbc632-UZ/image",
+      "ingredients": [
+        "sabzi",
+        "go'sht",
+        "yog'",
+        "piyoz",
+        "tuz",
+        "suv",
+        "mol yog'",
+        "ziralar"
+      ],
+      "cookingTime": "120 minutes",
+      "method": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vel nihil tenetur rerum eos architecto delectus suscipit adipisci aut ut porro consequatur ipsum error voluptate facere sequi dicta, at sit nobis inventore sapiente placeat possimus! Id, libero. Ullam et architecto facilis magnam nobis odit repellat quam, impedit veniam tempore. Sapiente!"
     }
+    
+    
   ]
 }

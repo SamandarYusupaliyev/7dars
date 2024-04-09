@@ -3,7 +3,7 @@ import React from "react";
 function Create() {
   return (
     <div>
-      <h1 className="text-3xl text-center font-bold mb-10">
+      <h1 className="text-3xl text-center font-bold mb-8">
         Create New Recipie
       </h1>
 
@@ -31,7 +31,7 @@ function Create() {
            />
             <button className="btn btn-secondary">Add</button>
              </div>
-             <div className="mt-1">
+             <div className="mt-0.5">
              <p>Inredients:Tuz,Go'sht,</p>
            </div>
         </label>

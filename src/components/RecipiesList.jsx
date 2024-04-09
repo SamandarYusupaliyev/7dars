@@ -1,8 +1,24 @@
 import { Link } from "react-router-dom"
-
+import {IoTrashOutline} from "react-icons/io5"
+import { data } from "autoprefixer"
 function RecipiesList({recipies}) {
+
+const deleteRecipie =(id)=>{
+  fetch('http://localhost:3000/recipies/'+id,{
+    method :"DELETE"
+  })
+  .then((data)=>{
+    return data.json()
+  }).then((data)=>{
+    console.log(data);
+  })
+  .catch((error) =>console.log(error))
+}
+
+
+
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ml-4 mr-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 ml-4 mr-4 mb-5">
         {recipies.map((recipe) => {
             return(
         <div key={recipe.id} className="card  bg-base-100 shadow-xl">
@@ -12,8 +28,13 @@ function RecipiesList({recipies}) {
      <div className="card-body">
            <h2 className="card-title">{recipe.title}</h2>
            <p className="line-clamp-3">{recipe.method}</p>
-      <div className="card-actions ">
-           <Link className="btn btn-sm md:btn-md btn-primary w-full" to={`/singleRecipe/${recipe.id}`}>Read more</Link>
+      <div className="card-actions flex-nowrap items-center ">
+           <Link className="btn btn-sm md:btn-md btn-primary " to={`/singleRecipe/${recipe.id}`}>
+             Read more
+           </Link>
+           <button onClick={()=>deleteRecipie(recipe.id)} className="btn btn-secondary">
+             <IoTrashOutline/>
+           </button>
       </div>
   </div>
 </div>
