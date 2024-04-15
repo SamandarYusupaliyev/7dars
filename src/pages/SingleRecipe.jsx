@@ -1,25 +1,10 @@
-import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
+import { useFetch } from "../hooks/useFetch"
 
 function SingleRecipe() {
   const {id} = useParams()
 
-  const [recipie, setRecipie] = useState(null)
-
-  useEffect (() => {
-    fetch("http://localhost:3000/recipies/" + id)
-  .then((data) => {
-    return data.json();
-  })
-  .then((recipie) =>{
-    setRecipie(recipie);
-  })
-  .catch((error) => {
-    console.log(error)
-  })
-  }, [id])
-
-  
+  const {data:recipie}=useFetch("http://localhost:3000/recipies/")
 
   return (
     <div className="flex items-center justify-center text-center">

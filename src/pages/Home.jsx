@@ -1,28 +1,13 @@
-
-import { useEffect, useState } from "react";
 import RecipiesList from "../components/RecipiesList";
+import{useFetch} from "../hooks/useFetch"
 
 
 function Home() {
-  const [recipies, setRecipies] = useState(null)
-  const [check,setCheck] =useState(0)
-
-  useEffect (() => {
-    fetch("http://localhost:3000/recipies")
-  .then((data) => {
-    return data.json();
-  })
-  .then((recipies) =>{
-    setRecipies(recipies);
-  })
-  .catch((error) => {
-    console.log(error)
-  })
-  }, [check])
+  const {data:recipies}=useFetch("http://localhost:3000/recipies")
 
   const deleteRecipie =(id)=>{
-    fetch('http://localhost:3000/recipies/'+id,{
-      method :"DELETE"
+    fetch("http://localhost:3000/recipies/" +id,{
+      method:"DELETE"
     })
     .then((data)=>{
       return data.json()
@@ -35,7 +20,9 @@ function Home() {
 
   return (
     <div>
-     {recipies && <RecipiesList recipies={recipies}/>}
+     {recipies &&
+      (<RecipiesList recipies={recipies} deleteRecipie={deleteRecipie}/>
+    )}
     </div>
   )
 }
